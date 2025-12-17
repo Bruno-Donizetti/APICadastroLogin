@@ -6,9 +6,9 @@ Projeto feito para colocar em prática a criação de APIs com Node JS. Nele é 
 ## Tecnologias utilizadas
 - Node.js
 - MongoDB
-- JWT (JsonWebToken)
+- JWT (JSON Web Token)
 - Argon2id para hash de senhas
-- dontenv
+- dotenv
 
 ## Tecnologias na máquina
 - Node.js
@@ -99,7 +99,7 @@ Retorna os dados do usuario autenticado.
 #### Headers:
 ```headers
 {
-    Authorization: Baerer <Token>
+    Authorization: Bearer <Token>
 }
 
 ```
@@ -157,7 +157,7 @@ Altera os dados do usuario que enviou a requisição.
 #### Headers:
 ```headers
 {
-    Authorization: Baerer <Token>
+    Authorization: Bearer <Token>
 }
 
 ```
@@ -190,7 +190,7 @@ Deleta o usuário do sistema.
 #### Headers:
 ```
 {
-    Authorization: Baerer <Token>
+    Authorization: Bearer <Token>
 }
 ```
 
